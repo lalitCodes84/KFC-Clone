@@ -1,0 +1,320 @@
+*{
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 99%;
+}
+body{
+    margin: 0;
+}
+/* Set location css section  */
+.headerParentDiv{
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+}
+.setLocationDiv{
+    display: flex;
+    justify-content: center;
+    height: 9vh;
+    width: 100%;
+    margin: auto;
+    border: 1px solid #e3e3e3;
+}
+.setLocationDiv>img{
+    width: 1%;
+    margin: 1.4% 0.8% 1% 1%;
+    scale: 1.1;
+}
+.setLocationDiv>button{
+    background-color: #202124;
+    color: white;
+    width: 7.5%;
+    height: 5.5vh;
+    font-size: 80%;
+    border: none;
+    margin: 0.9%;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+/* Nav Bar Section css */
+#navbarParent{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #e3e3e3;
+    width: 100%;
+    height: 18vh;
+    background-color: white;
+}
+#navbarParent>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.leftMenu>div+div{
+    display: flex;
+    width: 30%;
+    margin-right: 15%;
+}
+.menu{
+    text-decoration: none;
+    margin-left: 25%;
+    color: black;
+    font-weight: 400;
+}
+.leftMenu{
+    margin-left: 3%;
+}
+.leftMenu>div{
+    scale: 1;
+}
+#rightMenuParent{
+ padding-left: 25%;
+}
+#rightMenuParent>button{
+    background-color: transparent;
+    padding-right: 4%;
+    border: none;
+    margin-left: 2%;
+    font-weight: 600;
+}
+#rightMenuParent>p{
+   width: 2%;
+   font-weight: 600;
+   border-left: 1px solid black;
+   padding: 1%;
+   padding-left: 3%;
+}
+#bucket_Cart_Icon{
+    width: 11%;
+    margin-left: 2%;
+    cursor: pointer;
+}
+/* start order section */
+
+.startOrderDiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 27.5vh;
+    height: 12vh;
+    background-color:black;
+    
+}
+.startOrderDiv>p{
+    font-weight: 700;
+    margin: 1.8%;
+    width: fit-content;
+    color: whitesmoke;
+    margin-right: 0;
+}
+.startOrderDiv>button{
+    width: 12%;
+    height: 8vh;
+    margin: 0.9% 1.5%;
+    border-radius: 50px;
+    border: none;
+    background-color: #e4002b;
+    color: whitesmoke;
+    cursor: pointer;
+}
+.kfcBanner{
+    width: 100%;
+}
+.kfcBanner>img{
+    width: 100%;
+}
+.kfcBanner~div{
+    width: 100%;
+    margin-bottom: 10%;
+    z-index: 1;
+
+}
+.kfcBanner~div>hr{
+    width: 50%;
+    text-align: center;
+    margin-left: 38%;
+    opacity: 80%;
+    height: 2px;
+    background-color:#e3e3e3;
+    border: none;
+}
+.kfcBanner~div>h1{
+    width: 25%;
+    font-size: 32px;
+    font-family: National 2 Condensed;
+    height: fit-content;
+    text-align: center;
+    margin: 5% 0% 0% 12%;
+    font-weight: 600;
+    position: relative;
+    top: 5vh;
+    right: 1vw;
+}
+/* Footer Section starts here */
+
+#footer{
+    background-color: #202124;
+    width: 94%;
+    position: relative;
+    padding: 0% 0% 2% 6%;
+    margin-bottom: 0%;
+    height: auto;
+}
+#footer>div{
+    display: flex;
+    justify-content: space-between;
+    width: 7%;
+    height: 8vh;
+    display: flex;
+    right: 0.4vw;
+
+}
+#footer>div>div{
+    position: relative;
+    left: 9vw;
+    width: 21%;
+    background-color: #e4002b;
+    height: 90%;
+    
+}
+/* Offer and deals section view all deals button  */
+#footer>div+div{
+    width: 80%;
+    display: flex;
+    margin: 5% 0% 5% 9% ;
+    height: fit-content;
+    padding: 1%;
+    color: whitesmoke;
+}
+#footer>div+div>h1{
+    font-size: xx-large;
+    font-weight: 700;
+}
+#footer>div+div>button{
+    height: fit-content;
+    margin: 3%;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: whitesmoke;
+    font-size: 12px;
+}
+
+/* Slider Section Starts Here */
+.sliderParent{
+    border: 1px solid white;
+    width: 100%;   
+    
+}
+
+#offer{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+
+}
+
+.offerCard {
+    background-color: white;
+    color: black;
+    height: 100%;
+    border: 2px solid white;
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+.offerCard>h1 {
+    color: white;
+    text-align: center;
+}
+
+.offerCard>img {
+    width: 100%;
+}
+
+.offerCard>p {
+    margin: 0px 10px;
+    color: white;
+    text-align: center;
+}
+
+.offerCard>button {
+    margin: 10% 10% 10% 50%;
+    background-color: white;
+    border-radius: 20px;
+    padding: 4%;
+    height: 10%;
+    width: 35%;
+    text-align: center;
+}
+
+
+#rfooter {
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    padding: 20px 50px;
+}
+
+#rfooter>img {
+    width: 3em;
+    height: 3em;
+}
+
+#Tfooter {
+    display: flex;
+    background-color: #202124;
+}
+
+#linksF {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 60%;
+}
+
+.linkCard {
+    display: flex;
+    flex-direction: column;
+}
+
+.linkCard>a {
+    text-decoration: none;
+    color: #E3E3E3;
+    font-weight: 100;
+    margin: 5px;
+}
+
+.linkCard>a:hover {
+    font-weight: 600;
+}
+
+#app {
+    display: flex;
+    width: 20%;
+    justify-content: space-around;
+}
+
+#app>img {
+    width: 100px;
+    height: 50px;
+}
+
+#Dfooter {
+    height: 50px;
+    color: #DBDBDB;
+    font-size: 12px;
+    margin-top: 90px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: #202124;
+}
